@@ -28,14 +28,19 @@ We came out with 4 alternatives of how would we make our original prototype more
 * VisualVM (Detects deadlocks, parking threads)
 * jdb
 
+### Programming Skills
+ * Java 8(beating heart of multithreading)  
+ * Bash(console commands automation)
+ * Python(Data Operations, Visualizations)
+
 ### Running Environment
 * DAS4 Cluster
 
 ### Automation Scripts
 * Bash Automated Script for running combination of different commands + MCNDFS versions + Promela Files + NoWorkers + Cycles
 * Each of the executions of combinations of <workers>, <mcndfs>, <promela files>, <repetition cycles> are automatically logged in
-* Python Script to refine the logged data and perform statistic metrics
-* Another Python script in order to revisit the refined data and perform visuals on our performance data results
+* Python Script to retrieve the logged data and perform visuals on each running instance
+* Second Python script that aggregates the results and performs metrics per model ( For all the executions )
 
 ### Pipeline steps
 * ./run.sh script, intermediate csv files are generated
@@ -47,3 +52,5 @@ We came out with 4 alternatives of how would we make our original prototype more
 
 ### Models Average Running Time On Das4
 * 3 hours, 40 mins
+
+
