@@ -38,9 +38,9 @@ We came out with 4 alternatives of how would we make our original prototype more
 
 ### Automation Scripts
 * Bash Automated Script for running combination of different commands + MCNDFS versions + Promela Files + NoWorkers + Cycles
-* Each of the executions of combinations of <workers>, <mcndfs>, <promela files>, <repetition cycles> are automatically logged in
+* Each of the executions of combinations of [workers], [mcndfs],[promela files], [Loop cycles] are automatically logged in
 * Python Script to retrieve the logged data and perform visuals on each running instance
-* Second Python script that aggregates the results and performs metrics per model ( For all the executions )
+* Second Python script that aggregates the results and performs metrics per model (For all the executions, Summary)
 
 ### Pipeline steps
 * ./run.sh script, intermediate csv files are generated
