@@ -33,3 +33,13 @@ for v in "${versions[@]}"; do
 		done
 	done
 done
+
+#CSV files generated
+
+# convert all the .csv data to images(saved locally)
+python traverse_vis.py
+
+# calculate the mean value of all the intermediate files/models 
+python aggregate_vis.py
+
+#Job Ends
