@@ -37,5 +37,13 @@ We came out with 4 alternatives of how would we make our original prototype more
 * Python Script to refine the logged data and perform statistic metrics
 * Another Python script in order to revisit the refined data and perform visuals on our performance data results
 
+### Pipeline steps
+* ./run.sh script, intermediate csv files are generated
+    * traverse_vis.py, automatically converting all the .csv data to images(saved locally)
+        * aggregate_vis.py, performs the mean value calculation of all the intermediate files/models
 
+### Run Command
+./run.sh ( Automatically Generates all the pipeline intermediate steps and outcomes -- Full Automation )
 
+### Models Average Running Time On Das4
+* 3 hours, 40 mins
